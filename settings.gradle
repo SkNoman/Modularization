@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "W AWAZ"
+include ':app'
+include ':distributor:distributor_data'
+include ':distributor:distributor_domain'
+include ':distributor:distributor_presentation'
+include ':employee:employee_data'
+include ':employee:employee_domain'
+include ':employee:employee_presentation'
+include ':common:common_utils'
